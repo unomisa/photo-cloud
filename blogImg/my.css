@@ -1,0 +1,59 @@
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}
+
+/*文章透明*/
+
+.layout_post>#post {
+    background: rgba(255, 255, 255, 1.0);
+}
+
+#web_bg {
+    background: -webkit-linear-gradient(to bottom, #fad0c4 0%, #ffd1ff 100%);
+    background: -moz-linear-gradient(to bottom, #fad0c4 0%, #ffd1ff 100%);
+    background: -o-linear-gradient(to bottom, #fad0c4 0%, #ffd1ff 100%);
+    background: -ms-linear-gradient(to bottom, #fad0c4 0%, #ffd1ff 100%);
+   background-image: linear-gradient(to bottom, #fad0c4 0%, #ffd1ff 100%);
+}
+
+/* 滚动条 */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: ##d1358b;
+    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #FF3399;
+}
+/* 标题大小 */
+ h1 { font-size: 250%; }
+ h2 { font-size: 200%; }
+ h3 { font-size: 150%; }
+ h4 { font-size: 130%; }
+ h5 { font-size: 120%; }
+ h6 { font-size: 100%; }
+ 
+ /* 鼠标样式 */
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
